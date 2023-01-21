@@ -1,0 +1,411 @@
+/* FONTES */
+@import url(https://fonts.googleapis.com/css?family=Exo+2:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+/* PROPRIEDADES GERAIS: */
+*{
+    margin: 0px;
+}
+/* INÍCIO DO CABEÇALHO */
+header{
+    background-color: rgb(1,4,11);  
+    height: 12vh; 
+    padding-top: 3vh;
+}
+header h1{
+    font-family: 'exo 2', sans-serif;
+    color: rgb(255,213,1);
+    font-weight: 900;
+    text-align: center;
+}
+header p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+/* FIM DO CABEÇALHO */
+
+/* INÍCIO DO CORPO: */
+/* SEÇÃO 1 */
+#img-um{
+    background-image: url(/img/mibr.png);
+    background-repeat: no-repeat;
+    background-color: rgb(1,4,11); 
+    width: 100%;
+    height: 85vh;
+    background-attachment: fixed;
+    padding-top: 1em;
+}
+
+#img-um h2 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0,169,254); 
+    font-weight: 700;
+    text-align: center;
+}
+/* FIM DA SEÇÃO 1 */
+/* SEÇÃO TEXTO INTERMEDIÁRIO */
+.txt-info{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    text-align: justify;
+}
+.txt-info span{
+    font-weight: 500;
+    color: rgb(255,213,1);
+}
+/* FIM SEÇÃO TEXTO INTERMEDIÁRIO */
+/* SEÇÃO 2 */
+#img-dois{
+    width: 100%;
+    padding-top: 5vh;
+    position: relative;
+}
+#img-dois h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+#img-dois p{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255,255,255); 
+    background-color: rgb(0,0,0, 0.7);
+    text-align: center;
+    font-weight: normal;
+    position: absolute;
+    bottom: 2vh;
+}
+#img-dois a{
+    color: rgb(255,213,1);
+}
+/* FIM SEÇÃO 2 */
+/* SEÇÃO 3 */
+#sec-titulos{
+    display: flex;
+    flex-direction: row;
+}
+#btn-titulos{
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    background-color: rgb(255,213,1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+#btn-titulos:hover{
+    background-color: rgb(0,169,254); 
+    transition:all 0.5s ease-out;
+}
+/* FIM SEÇÃO 3 */
+/* SEÇÃO 4 */
+#title-siga{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0,169,254); 
+    text-align: center;
+    margin-top: 0.5em;
+}
+#redes{
+    text-align: center;
+}
+/* FIM SEÇÃO 4 */
+/* FIM DO CORPO */
+
+/* INÍCIO RODAPÉ */
+footer{
+    background-color: black;
+}
+footer h1{
+    font-family: 'exo 2', sans-serif;
+    color: rgb(255,213,1);
+    font-weight: 900;
+    text-align: center; 
+}
+footer p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255,255,255); 
+    font-weight: normal;
+}
+/* FIM DO RODAPÉ */
+/* FIM DAS PROPRIEDADES GERAIS*/
+/* =============================================================== */
+
+/* MEDIA QUERIES */
+/* 1500px + */
+@media screen and (min-width: 1500px) {
+    header h1{
+        font-size: 4em;
+    }
+    header p{
+        font-size: 1em;
+    }
+    #img-um{
+        background-size: contain;
+        background-position: center bottom;
+    }
+    #img-um h2 {
+        font-size: 3em;
+    }
+    .txt-info{
+        font-size: 1em;
+        padding: 2vh 4vw;
+    }
+    #img-dois {
+        height: 95vh;
+        background-image: url(/img/liquid.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+    #img-dois h2{
+        font-size: 2.3em;
+        padding: 0vh 4vw;
+        text-align: left;
+        color: rgb(0,169,254); 
+    }
+    #img-dois p{
+        font-size: 1.3em;
+    }
+    #titulos{
+        width: 40vw;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1em;
+        padding: 2em;
+    }
+    #img-titulos{
+        width: 60vw;
+        background-image: url(/img/thebest.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .icone{
+        margin: 5% 5%;
+        width: 5%
+    }
+    #title-siga{
+        font-size: 2em;
+    }
+    footer{
+        padding: 3% 32%;
+    }
+    footer h1{
+        font-size: 3em;
+    }
+    footer p{
+        font-size: 1.3em;
+    }
+}
+
+/* 855px - 1500px */
+@media screen and (min-width:855px) and (max-width: 1499px) {
+    header h1{
+        font-size: 4em;
+    }
+    header p{
+        font-size: 1em;
+    }
+    #img-um{
+        background-size: cover;
+        background-position: center top;
+    }
+    #img-um h2 {
+        font-size: 3em;
+    }
+    .txt-info{
+        font-size: 1em;
+        padding: 2vh 4vw;
+    }
+    #img-dois{
+        height: 80vh;
+        background-image: url(/img/br.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+        
+    }
+    #img-dois h2{
+        font-size: 2em;
+        padding: 0vh 4vw;
+        text-align: left;
+        opacity: 100%;
+        color: rgb(255,255,255); 
+    }
+    #img-dois p{
+        font-size: 1.3em;
+    }
+    #titulos{
+        width: 40vw;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8em;
+        padding: 2em 2em;
+    }
+    #img-titulos{
+        width: 60vw;
+        background-image: url(/img/thebest.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .icone{
+        margin: 5% 5%;
+        width: 5%
+    }
+    #title-siga{
+        font-size: 2em;
+    }
+    footer{
+        padding: 3% 20%;
+    }
+    footer h1{
+        font-size: 2.5em;
+    }
+    footer p{
+        font-size: 1.3em;
+    }
+}
+
+/* 400px - 854px */
+@media screen and (min-width:400px) and (max-width: 854px) {
+    header h1{
+        font-size: 2em;
+    }
+    header p{
+        font-size: 0.6em;
+    }
+    #img-um{
+        background-size:cover;
+        background-position: center bottom;
+    }
+    #img-um h2 {
+        font-size: 3em;
+    }
+    .txt-info{
+        font-size: 0.7em;
+        padding: 2vh 4vw;
+    }
+    #img-dois{
+        height: 60vh;
+        background-image: url(/img/dark.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+        
+    }
+    #img-dois h2{
+        font-size: 1em;
+        padding: 0vh 4vw;
+        text-align: left;
+        opacity: 100%;
+        color: rgb(255,255,255); 
+    }
+    #img-dois p{
+        font-size: 0.7em;
+    }
+    #titulos{
+        color: rgb(255, 255, 255);
+        width: 100vw;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8em;
+        padding: 2em 2em;
+        background-image: url(/img/thebest.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #img-titulos{
+        display: none;
+    }
+    .icone{
+        margin: 5% 5%;
+        width: 5%
+    }
+    #title-siga{
+        font-size: 1em;
+    }
+    footer{
+        padding: 3% 20%;
+    }
+    footer h1{
+        font-size: 1.3em;
+    }
+    footer p{
+        font-size: 0.8em;
+    }
+}
+/* 1px - 399px */
+@media screen and (min-width:1px) and (max-width: 399px) {
+    header h1{
+        font-size: 1.5em;
+    }
+    header p{
+        font-size: 0.6em;
+    }
+    #img-um{
+        height: 60vh;
+        background-size:cover;
+        background-position: center bottom;
+    }
+    #img-um h2 {
+        font-size: 3em;
+    }
+    .txt-info{
+        font-size: 0.5em;
+        padding: 2vh 4vw;
+    }
+    #img-dois{
+        height: 60vh;
+        background-image: url(/img/dark.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+        
+    }
+    #img-dois h2{
+        font-size: 1em;
+        padding: 0vh 4vw;
+        text-align: left;
+        opacity: 100%;
+        color: rgb(255,255,255); 
+    }
+    #img-dois p{
+        font-size: 0.7em;
+    }
+    #titulos{
+        color: rgb(255, 255, 255);
+        width: 100vw;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8em;
+        padding: 2em 2em;
+        background-image: url(/img/thebest.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #img-titulos{
+        display: none;
+    }
+    .icone{
+        margin: 5% 5%;
+        width: 5%
+    }
+    #title-siga{
+        font-size: 1em;
+    }
+    footer{
+        padding: 3% 2%;
+    }
+    footer h1{
+        font-size: 1.3em;
+    }
+    footer p{
+        font-size: 0.8em;
+    }
+}
