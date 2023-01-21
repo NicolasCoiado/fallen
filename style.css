@@ -28,7 +28,7 @@ header p{
 /* INÍCIO DO CORPO: */
 /* SEÇÃO 1 */
 #img-um{
-    background-image: url(/img/mibr.png);
+    background-image: url(./img/mibr.png);
     background-repeat: no-repeat;
     background-color: rgb(1,4,11); 
     width: 100%;
@@ -155,7 +155,7 @@ footer p{
     }
     #img-dois {
         height: 95vh;
-        background-image: url(/img/liquid.png);
+        background-image: url(./img/liquid.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center top;
@@ -178,7 +178,7 @@ footer p{
     }
     #img-titulos{
         width: 60vw;
-        background-image: url(/img/thebest.jpg);
+        background-image: url(./img/thebest.jpg);
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -222,7 +222,7 @@ footer p{
     }
     #img-dois{
         height: 80vh;
-        background-image: url(/img/br.jpg);
+        background-image: url(./img/br.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center top;
