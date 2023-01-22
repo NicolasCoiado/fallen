@@ -10,5 +10,8 @@ Uma _landing page_ em homenagem a Gabriel “FalleN”.
 <img src="./img/wireframes/Mobile.png" alt="Wireframe para mobile" style="width: 300px">
 
 ## Fontes
-* [Exo 2](https://fonts.google.com/specimen/Exo+2?query=Exo+2)
-* [Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins)
+* [Exo 2](https://fonts.google.com/specimen/Exo+2?query=Exo+2).
+* [Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins).
+
+## Imagens 
+* Imagens retiradas de [HLTV.org](https://www.hltv.org/).
